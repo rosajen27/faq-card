@@ -1,15 +1,16 @@
 * {
   box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 body {
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  font-family: "Kumbh Sans", sans-serif;
   height: 100vh;
 }
 
 p {
   font-size: 12px;
+  color: hsl(237, 12%, 33%);
 }
 
 .attribution {
@@ -28,6 +29,7 @@ p {
   margin: 100px auto;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .row::after {
@@ -57,4 +59,40 @@ p {
 .hero-img {
   margin-left: -90px;
   margin-top: 75px;
+}
+
+.accordion {
+  cursor: pointer;
+  padding: 18px 0;
+  width: 350px;
+  text-align: left;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  outline: none;
+  transition: 0.4s;
+  color: hsl(237, 12%, 33%);
+  background-color: #fff;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.accordion:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  color: hsl(240, 6%, 50%);
+  width: 350px;
+  line-height: 25px;
+}
+
+.arrow {
+    float: right;
 }
