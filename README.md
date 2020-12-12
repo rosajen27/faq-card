@@ -1,6 +1,7 @@
 # FAQ Card Component
 
-A FAQ card component created with HTML,  CSS, and JavaScript. Coding Challenge provided by https://www.frontendmentor.io/challenges
+A simple Frequently Asked Questions card component. Created with HTML, CSS, and JavaScript. 
+Coding Challenge provided by https://www.frontendmentor.io/challenges
 
 
 ## Table of Contents
