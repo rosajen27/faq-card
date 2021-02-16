@@ -1,8 +1,6 @@
-# FAQ Card Component
+# ❓ FAQ Card Component
 
-A simple Frequently Asked Questions card component. Created with HTML, CSS, and JavaScript.
-
-Coding Challenge provided by https://www.frontendmentor.io/challenges
+A 'Frequently Asked Questions' card component.
 
 
 ## Table of Contents
@@ -15,16 +13,17 @@ Coding Challenge provided by https://www.frontendmentor.io/challenges
 
 ## Deployment
 
-
-Deployed Website: https://rosajen27.github.io/faq-card/
+Demo: https://rosajen27.github.io/faq-card/
 
 ![demo](./images/demo.png)
+
 
 ## Built With
 
 * HTML
 * CSS
 * JavaScript
+
 
 ## Authors
 
@@ -38,7 +37,7 @@ Deployed Website: https://rosajen27.github.io/faq-card/
 
 This project is licensed under the MIT License.
 
-Copyright (c) 2020 Jennifer Rosa
+Copyright (c) 2021 Jennifer Rosa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
